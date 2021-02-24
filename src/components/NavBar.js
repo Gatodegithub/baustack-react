@@ -1,4 +1,5 @@
-import React from "react";
+import logo from '../logoBaustack.png';
+// import React from "react";
 
 export default function NavBar() {
   return (
