@@ -1,0 +1,14 @@
+:root {
+  --botones: #fff;
+  --color-parrafo: rgba(0, 0, 0, 0.55);
+}
+
+p {
+  color: var(--color-parrafo);
+}
+
+@media screen and (min-width: 992px) {
+  header {
+    margin-top: -80px;
+  }
+}
