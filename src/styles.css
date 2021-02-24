@@ -7,8 +7,37 @@ p {
   color: var(--color-parrafo);
 }
 
+svg.bi.bi-facebook {
+  color: orange !important;
+}
+svg.bi.bi-instagram {
+  color: purple;
+}
+svg.bi.bi-linkedin {
+  color: purple;
+}
+.contact-list li {
+  position: relative;
+}
+.contact-list li:not(:last-child)::before {
+  content: url("./telephone-fill.svg");
+  position: absolute;
+  top: 3px;
+  left: -20px;
+}
+.contact-list li:last-child::before {
+  content: url("./envelope-fill.svg");
+  position: absolute;
+  top: 3px;
+  left: -20px;
+}
+
 @media screen and (min-width: 992px) {
   header {
     margin-top: -80px;
+  }
+  iframe {
+    width: 80%;
+    height: 400px;
   }
 }

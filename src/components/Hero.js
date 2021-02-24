@@ -11,6 +11,17 @@ export default function Hero() {
           </h2>
         </div>
       </div>
+      <div className="row justify-content-center">
+        <div className="col-lg-8 text-center py-5">
+          <div className="ratio ratio-1x1">
+            <iframe
+              src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+              title="YouTube video"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }

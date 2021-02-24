@@ -25,8 +25,21 @@ export default function Contact() {
               ></input>
             </div>
             <div className="mb-3">
+              <label htmlFor="telefono" className="form-label">
+                Telefono
+              </label>
+              <input
+                type="text"
+                className="form-control"
+                id="telefono"
+                name="telefono"
+                required=""
+                pattern="[A-Za-z ]{4,15}"
+              ></input>
+            </div>
+            <div className="mb-3">
               <label htmlFor="cc_to" className="form-label">
-                Correo
+                Email
               </label>
               <input
                 type="text"
@@ -46,7 +59,7 @@ export default function Contact() {
                 id="message"
                 name="message"
                 maxLength="200"
-                placeholder="Escríbeme..."
+                placeholder="Escríbenos..."
               ></textarea>
             </div>
 
